@@ -1,0 +1,10 @@
+xfadeIn 1 4
+$ loopAt 4
+$ iter 4
+$ slice 8 "1 7 2 8"
+$ s "toper:1"
+# room 0.7
+# speed "-0.5 1 -0.35"
+# delay 0.8
+# gain 0.9
+

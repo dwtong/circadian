@@ -1,0 +1,16 @@
+d1
+$ loopAt 4
+$ hurry 0.8
+$ slice 8 "0 3? 7*4 2? 4 2"
+-- $ striate 32
+$ s "thec:2"
+# gain 0.8
+# room 1
+# size 0.9
+-- # delay 0.8
+-- # dfb (range 0.3 0.8 sine)
+-- # dt 2
+-- # hpf 700
+# lpf "<4000 1500>"
+# lpq "<0 0.5>"
+# leslie 1

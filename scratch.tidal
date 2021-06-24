@@ -1,0 +1,95 @@
+d1 
+$ s "[ bd cp bd] [hh sn] ]"
+
+hush
+
+xfadeIn 1 4
+$ loopAt 4
+$ iter 4
+$ slice 8 "1 7 2 8"
+$ s "toper:1"
+# room 0.7
+# speed "-0.5 1 -0.35"
+# delay 0.8
+# gain 0.9
+
+d2 silence
+
+xfadeIn 3 16
+$ jux rev
+$ striate 16
+$ loopAt 6
+$ s "cosmos:5 cosmos:10"
+# gain 1.1
+
+d2
+$ loopAt 4
+$ hurry 0.5
+$ s "designed:2 ~"
+# gain 0.7
+# lpf 1500
+# lpq 0.5
+
+d2 
+$ loopAt 4
+$ jux rev
+$ s "thec:4"
+# octave 6
+# gain 0.7
+# room 1
+# size 0.9
+# delay 0.8
+# dt 2
+# dfb 0.8
+# hpf 1000
+
+d3 
+$ rev
+$ loopAt 4
+$ striate 4
+$ s "morce:3"
+# octave "<2 3>"
+# lpf 3000
+
+d3
+$ s "piddle:5 piddle:4"
+# gain 1
+# octave "<4 5 3>"
+
+d1 silence
+
+d2 $ s "dsynth:1? [dsynth:2*3|dsynth:3*2]"
+# delay 1
+# octave 2
+# room 0.7
+# gain 0.9
+-- # squiz (slow 4 $ range 2 4 $ sine)
+# lpf 3000
+
+d1 "bd(3,8)"
+
+d3 
+$ degradeBy 0.2
+$ s "dek:47(2,8)"
+# delay 0.5
+# dfb 0.5
+# dt 2
+# gain 1.2
+
+d4 silence
+
+
+d1 
+$ loopAt 4
+$ jux rev
+$ s "str:1"
+# note "bf4 ef4 d5"
+# room 1
+# gain 0.7
+# lpf 4000
+
+d2 
+$ s "str:3"
+# note "<bf3 ef3 d4>"
+# room 1
+# lpf 2000

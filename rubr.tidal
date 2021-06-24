@@ -1,0 +1,9 @@
+d1
+$ hurry 0.5
+$ jux rev
+$ fast 2
+$ scramble 4
+$ n "0 1 2 3 4 5 6 7"
+# sound "rubr"
+# lpf (slow 2 $ range 400 3600 sine)
+# gain 0.7

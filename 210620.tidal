@@ -1,0 +1,31 @@
+setcps 0.6
+
+hush
+
+d1 
+$ loopAt 4
+$ chop 8
+$ s "str:1"
+# speed 0.5
+# room 1
+# gain 0.7
+# lpf 4000
+
+d2 
+$ loopAt 8
+$ striate "<16 64 32 128>"
+$ s "str:3 str:1 str:2"
+# speed "-1 1 2"
+# room 0.5
+# lpf 2000
+# gain 0.7
+
+d3
+$ jux rev
+$ loopAt 6
+$ slice 8 "1 ~ 2 3 ~ 4 ~ 5 6 ~ 7 ~ 8"
+$ sound "glass:4"
+# gain 1
+# delay 0.7
+# dt 0.05
+# dfb 0.2

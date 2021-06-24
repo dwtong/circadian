@@ -1,0 +1,23 @@
+d1
+$ jux rev
+$ note "bf ef"
+# s "superpiano"
+# sustain 4
+# velocity 0.3
+# octave "<2 4! 3 5!>"
+# gain 2
+# delay sine
+# dt 0.6
+# dfb 0.8
+# room 0.5
+# size 0.9
+# lpf (slow 4 $ range 200 900 sine)
+
+d2 
+$ slow 16
+$ note "bf ef"
+# s "supersquare"
+# octave 3
+# gain 0.7
+# rate 0.2
+

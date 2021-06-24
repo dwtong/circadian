@@ -1,0 +1,12 @@
+-- this could work but it will first need the fade times fixing to stop the clicking
+-- xfadein is useful for slowly bringing a sound in
+xfadeIn 1 16
+$ jux rev
+$ s "rub:TidalHush
+:TidalHush
+j:3"
+# speed 0.5
+# delay 0.7
+# gain 0.7
+
+d1 silence

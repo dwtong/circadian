@@ -1,0 +1,43 @@
+d1
+$ s "superfm"
+# n 5 -- change note
+# amp1 1 -- op carrier (amp > 0)
+# amp2 0 -- op modulator (amp == 0)
+# amp3 0
+# amp4 0
+# amp5 0 amp6 0
+# ratio1 0.5 -- one octave lower
+-- # ratio1 1 -- won't change op frequency
+-- # ratio1 2 -- one octave higher
+
+-- hammond
+-- no modulation
+d2
+$ s "superfm"
+# note "bf2"
+# amp1 1
+# amp2 1
+# amp3 0.5
+# amp4 0.4
+# amp5 0.3
+# amp6 0.2
+# ratio1 1.02
+# ratio2 0.98
+# ratio3 0.52
+# ratio4 0.48
+# ratio5 0.5
+# ratio6 1.7
+# gain 1.2
+
+
+d1
+$ s "superfm"
+# n 0
+# amp1 1 
+# amp2 0
+# amp3 0
+# amp4 0
+# amp5 0
+# amp6 0
+# mod12 1 -- op carrier 1 modulated by op 2
+# ratio2 0.5

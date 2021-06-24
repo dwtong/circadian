@@ -1,0 +1,10 @@
+d1
+$ juxBy 0.3 rev
+$ slow 2
+$ splice 8 ("[1/2 3!2 7/3]/3")
+$ sound "<dek:20 dek:22>"
+# gain 1.2
+# delay 0.8
+# dt 1.8
+# dfb 0.2
+
