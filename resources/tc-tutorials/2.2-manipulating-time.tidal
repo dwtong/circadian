@@ -1,0 +1,12 @@
+d1 $ fast "2 0.5 3" $ n "0 2 [3 5] [4 7]"
+# sound "cpu" 
+# crush 2
+# xsdelay 1
+
+d2 $ n "8 5"
+# sound "dek" 
+# cps "0.2 2 0.5"
+
+d1 $ fast 2 $ n "0 2 [3 5] [4 7]" # sound "cpu"
+
+setcps 0.5
