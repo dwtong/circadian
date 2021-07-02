@@ -1,5 +1,4 @@
-d1 
-$ s "[ bd cp bd] [hh sn] ]"
+d1 $ "bd hh bd hh"
 
 hush
 
@@ -87,6 +86,7 @@ $ s "str:1"
 # room 1
 # gain 0.7
 # lpf 4000
+# speed 0.25
 
 d2 
 $ s "str:3"

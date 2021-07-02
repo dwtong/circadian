@@ -17,3 +17,5 @@ x.free;
 
 Quarks.install("SafetyNet");
 Quarks.install("https://github.com/calumgunn/StageMaster.git");
+
+Quarks.checkForUpdates({Quarks.install("SuperDirt", "v1.7.2"); thisProcess.recompile()})
