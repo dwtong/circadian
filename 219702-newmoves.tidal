@@ -1,11 +1,21 @@
-d1
+xfadeIn 1 8
+$ slow 8
 $ jux rev
-$ sometimes (|* speed "-0.25")
-$ rarely (|* speed "-0.8")
+$ striate 1000
+$ s "cosmos:1"
+# speed (range 0.3 0.9 perlin)
+# delay 0.9
+# dfb 0.8
+# lpf (range 1000 5000 sine)
+# lpq 0.5
+
+xfadeIn 1 8
+$ jux rev
+-- $ sometimes (|* speed "-0.25")
+-- $ rarely (|* speed "-0.8")
 $ chop 8
-$ striate (irand 100)
--- $ s "cosmos"
-$ s "morce"
+$ striate 1000
+$ s "cosmos"
 # n "<1 3 8 6>"
 # delay 0.8
 # dfb 0.7
@@ -25,7 +35,7 @@ $ s "mara*3"
 # speed 0.25
 
 d3 
-$ slow 8
+$ slow 4
 $ jux rev
 $ every 3 (|* speed "-1")
 $ s "numbers*2"
@@ -37,5 +47,5 @@ $ s "numbers*2"
 # dfb 0.7
 # speed (range 0.6 1 $ rand)
 # gain (range 0.3 0.71 $ rand)
-# hpf (range 1000 3000 sine)
-# hpq 0.5
+-- # hpf (range 1000 3000 sine)
+-- # hpq 0.5
